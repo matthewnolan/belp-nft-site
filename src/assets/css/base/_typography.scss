@@ -1,0 +1,66 @@
+body,
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto";
+  color: #191919;
+  @include responsive-font(get-vw(20px), 18px, 20px);
+  @media only screen and (max-width: 414px) {
+    @include responsive-font(get-vw(18px), 14px, 18px);
+  }
+}
+h1 {
+  color: $m-color;
+  font-family: "Fredoka One";
+  font-weight: 400;
+  @include responsive-font(get-vw(60px), 48px, 60px);
+  @media only screen and (max-width: 414px) {
+    @include responsive-font(get-vw(38px), 30px, 38px);
+  }
+  &.b{
+    color: #901DB7;
+  }
+}
+h2 {
+  color: #191919;
+  font-family: "Fredoka One";
+  font-weight: 400;
+  @include responsive-font(get-vw(48px), 38px, 48px);
+  @media only screen and (max-width: 414px) {
+    @include responsive-font(get-vw(28px), 22px, 28px);
+  }
+}
+h3 {
+  color: $m-color;
+  font-family: "Fredoka One";
+  font-weight: 400;
+  @include responsive-font(get-vw(42px), 33px, 42px);
+  @media only screen and (max-width: 414px) {
+    @include responsive-font(get-vw(23px), 18px, 23px);
+  }
+}
+h4 {
+  color: #901DB7;
+  font-family: "Fredoka One";
+  font-weight: 400;
+  @include responsive-font(get-vw(36px), 28px, 36px);
+  @media only screen and (max-width: 414px) {
+    @include responsive-font(get-vw(18px), 14px, 18px);
+  }
+}
+/*-------------------
+  font-awesome
+-------------------*/
+@font-face {
+  font-family: "FredokaOne";
+  src: url("./assets/fonts/FredokaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.box-shadow {
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.16);
+}
+.box-shadow-btn {
+  box-shadow: 0px 3px 10px 0px rgba(127, 22, 171, 0.66);
+}

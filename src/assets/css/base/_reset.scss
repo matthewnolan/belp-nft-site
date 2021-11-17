@@ -1,0 +1,59 @@
+//@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap');
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, pre, em, img, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figcaption, figure, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+}
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #3a4d69;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+  font-family: proxima-nova,sans-serif;
+  
+  
+}
+h1, h2, h3, h4, h5, h6, table, p, ul, ol, dl, input, textarea, ul li p, ul li dl, ol li p, ol li dl, table p, table ul, dl dd p, dl dd ul, ul ul, dl table, table table, ul table, ol ul, dl h2, dl h3, dl ol, ul ol {
+  font-size: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, nav, section {
+  display: block;
+}
+ul li, ol li, nav ul {
+  list-style: none;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #3a4d69;
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  line-height: 1.4;
+}
+em, strong {
+  font-weight: bold;
+}
+hr {
+  display: none;
+}
+input, select {
+  vertical-align: middle;
+}
+button:focus {
+  outline: 0;
+}
