@@ -4,6 +4,7 @@ var isChrome =
   navigator.userAgent.indexOf("Chrome") != -1 &&
   navigator.vendor.indexOf("Google Inc") != -1;
 
+
 $(document).ready(function () {
   clickMenu();
   slider();
