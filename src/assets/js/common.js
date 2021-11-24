@@ -4,7 +4,6 @@ var isChrome =
   navigator.userAgent.indexOf("Chrome") != -1 &&
   navigator.vendor.indexOf("Google Inc") != -1;
 
-
 $(document).ready(function () {
   clickMenu();
   slider();
@@ -84,7 +83,7 @@ function slider() {
     },
     lazy: {
       loadPrevNext: true,
-      loadPrevNextAmount:4
+      loadPrevNextAmount:1
     },
     loop: true,
     slidesPerView: 4,
