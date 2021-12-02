@@ -1,5 +1,5 @@
 import "./vendors/cookie";
-const timeEnd = "Nov 30, 2021 00:00:00";
+const timeEnd = "Jan 1, 2022 00:00:00";
 var isChrome =
   navigator.userAgent.indexOf("Chrome") != -1 &&
   navigator.vendor.indexOf("Google Inc") != -1;
@@ -83,7 +83,7 @@ function slider() {
     },
     lazy: {
       loadPrevNext: true,
-      loadPrevNextAmount:1
+      loadPrevNextAmount: 1,
     },
     loop: true,
     slidesPerView: 4,
